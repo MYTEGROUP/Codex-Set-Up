@@ -1,0 +1,19 @@
+{
+  "name": "codex-monorepo-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Codex + GitTools monorepo template for rapid AI-driven development.",
+  "main": "index.js",
+  "scripts": {
+    "codex": "dotenv -e .env -o -- npx codex -m o4-mini --fullAuto --sandbox none --dangerously-auto-approve-everything",
+    "git:diffs": "node GITTOOLS/gitDiffClipboard.js",
+    "git:history": "node GITTOOLS/gitHistoryExtractor.js"
+  },
+  "devDependencies": {
+    "@openai/codex": "0.1.2504172351",
+    "clipboardy": "^4.0.0",
+    "dotenv": "^16.5.0",
+    "dotenv-cli": "^8.0.0",
+    "@inquirer/prompts": "^7.5.3"
+  }
+}
