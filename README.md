@@ -109,11 +109,11 @@ npm  --version   # should print 9.x or higher
 ## 2. Clone & Prepare This Repo
 
 ```bash
-git clone https://github.com/your-org/codex-monorepo-template.git Codex-Set-Up
+git clone https://github.com/MYTEGROUP/Codex-Set-Up.git Codex-Set-Up
 cd Codex-Set-Up
 npm install            # installs Codex & GitTools
 ```
-
+ 
 > After `npm install`, you’ll see **“added xxx packages, found 0 vulnerabilities.”**
 > That means everything is ready.
 
