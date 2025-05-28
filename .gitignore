@@ -1,0 +1,59 @@
+# add custom ignore here
+
+
+
+# End of custom ignore
+
+# --- Node.js dependencies and build artifacts ---
+node_modules/
+**/node_modules/
+dist/
+build/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS/system files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment / secret / config files ---
+.env
+.env.*       # For variants like .env.local, .env.development, etc.
+ClientContext.json
+
+# --- IDE/editor settings ---
+.vscode/
+.idea/
+*.iml
+
+# --- Codex & Project meta ---
+Codex-tools/
+scripts/.codex-env
+project_bible.json
+
+# --- pnpm, yarn, npm store cache ---
+.pnpm-store/
+**/.pnpm-store/
+.yarn/
+.yarnrc.yml
+.pnpm-debug.log
+
+# --- Miscellaneous ---
+*.log
+*.bak
+*.swp
+*.swo
+
+# --- Other common ignores ---
+*.tgz
+*.gz
+*.zip
+
+# --- Optional: Exclude test snapshots and reports ---
+__snapshots__/
+*.snap
+reports/
